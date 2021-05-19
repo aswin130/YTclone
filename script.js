@@ -24,7 +24,7 @@ async function searchdetails(URL) {
        // rendering the list of search details and embeded video into it
        content+=`<li>
         <div>
-        <iframe width="120" height= "90" src = "http://www.youtube.com/embed/${element.id.videoId}"  frameborder="0" allowfullscreen ></iframe>
+            <img src= ${snippet.thumbnails.default.url} width="120" height="90">
             <div class="mainpage-content">
                 <a href="http://www.youtube.com/embed/${element.id.videoId}"> 
                     ${snippet.title}
