@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <title>YT Clone</title>
+</head>
+<body>
+    <!-- header section starts -->
+    <div class="header">
+
+        <div class="header-left">
+            <i class="material-icons">menu</i>
+            <img src="logo.png" alt="">
+        </div>
+
+        <div class="header-search">
+            <form action="">
+                <input id ="search" type="text" class="text" placeholder="Search">
+                <button type="button"> <i id ="submit" class="material-icons">search</i> </button>
+            </form>
+        </div>
+
+        <div class="header-right">
+            <button><i class="material-icons">video_call</i></button>
+            <button><i class="material-icons">apps</i></button>
+            <button><i class="material-icons">notifications</i></button>
+            <button><i class="material-icons">account_circle</i></button>
+        </div>
+
+    </div>
+    <!-- header ends -->
+    <!-- body section - side bar, video content -->
+    <div class="main-body">
+        <!-- side bar  -->
+        <div class="side-bar">
+            <div class="container-cat">
+                <div class="sidebar-cat">
+                    <i class="material-icons">home</i>
+                    <span>Home</span>
+                </div>
+                <div class="sidebar-cat">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </div>
+                <div class="sidebar-cat">
+                    <i class="material-icons">explore</i>
+                    <span>Explore</span>
+                </div>
+                <div class="sidebar-cat">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subscriptions</span>
+                </div>
+                <hr>
+                <div class="sidebar-cat">
+                    <i class="material-icons">video_library</i>
+                    <span>Library</span>
+                </div>
+                <div class="sidebar-cat">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </div>
+                <hr>
+            </div>
+        </div>
+            <!-- Video section -->
+        <div id = "videos" class="videos">
+            <h1>Recommend</h1>
+            <ul id="video-content">
+                <li>
+                    <div>
+                        <img src="logo.png" width="50" height="50">
+                        <div class="mainpage-content">
+                            <header>
+                                Heading
+                        
+                            </header>
+                            <b>Channelname</b>
+                            <!-- <p>description</p> -->
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
